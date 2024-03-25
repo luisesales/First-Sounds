@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{4e39914b-d138-43fc-8795-179e66eacf0a}">
+	<object class="AudioFile" id="{22bbee6a-d6da-4afc-8472-fb9eeb3b236c}">
 		<property name="assetPath">
-			<value>walking_4.wav</value>
+			<value>Shoot_2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>22.0499992</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.16068027210884353</value>
+			<value>0.99455782312925167</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4c453d4c-ede5-407b-9674-994430e75e25}</destination>
