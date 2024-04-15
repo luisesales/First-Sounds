@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="Mixer" id="{e9e25051-9a6d-434f-bb3b-37ddfd9b1eec}" />
+	<object class="ObsoleteObject" id="{40ae0f88-3a62-4f06-b1dc-76cb52f46441}" />
 </objects>

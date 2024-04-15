@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fe539f47-4cf0-45d6-b0a9-a206863f1163}">
+		<property name="assetPath">
+			<value>ceiling.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.88929705215419497</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c453d4c-ede5-407b-9674-994430e75e25}</destination>
+		</relationship>
+	</object>
+</objects>
