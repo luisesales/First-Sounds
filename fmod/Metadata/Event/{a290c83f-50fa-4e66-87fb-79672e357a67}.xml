@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c6ea78b1-b3a0-4387-a13a-bb23426e7319}">
+		<relationship name="modulators">
+			<destination>{8484cd75-84f2-44ec-aafd-833ac4ab5a80}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{d28088ff-9b9a-467a-b7cc-81f37c42ddb8}</destination>
 		</relationship>
@@ -83,9 +86,18 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{1149bd95-5c8c-49cf-a3f6-1d669eafc77a}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>0.80000000000000004</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{aa202d87-e505-4fc7-b3aa-dba7bad1f4b3}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{7b2fb0b3-53d6-4ca3-8d9b-7272b5373d33}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{b1f5bff1-5265-4ac2-8dbf-62e211430ffe}</destination>
 			<destination>{6c3d3952-2072-46f5-9e2c-b0b20015be5e}</destination>
@@ -116,12 +128,36 @@
 			<destination>{d55916e9-be1a-4c29-9e48-75ebd8f75557}</destination>
 		</relationship>
 	</object>
+	<object class="RandomizerModulator" id="{8484cd75-84f2-44ec-aafd-833ac4ab5a80}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{d28088ff-9b9a-467a-b7cc-81f37c42ddb8}">
 		<relationship name="effects">
 			<destination>{db4d6bf0-b86b-4834-b2a2-b5b59c80bdae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{afdd75c3-de7b-4430-b716-d8773046db6a}" />
+	<object class="RandomizerModulator" id="{aa202d87-e505-4fc7-b3aa-dba7bad1f4b3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>8</value>
+		</property>
+	</object>
+	<object class="ParameterCondition" id="{7b2fb0b3-53d6-4ca3-8d9b-7272b5373d33}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{86bb682b-1cd8-49d7-b8fc-a9e1f18e1e93}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{b1f5bff1-5265-4ac2-8dbf-62e211430ffe}">
 		<relationship name="audioFile">
 			<destination>{195f828c-bb16-4238-9e24-67ef125e4155}</destination>
