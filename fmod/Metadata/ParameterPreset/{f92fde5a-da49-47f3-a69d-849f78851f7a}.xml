@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f92fde5a-da49-47f3-a69d-849f78851f7a}">
+		<property name="name">
+			<value>isBubbling</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c04d983f-99cc-45eb-825b-5843c359138d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{86bb682b-1cd8-49d7-b8fc-a9e1f18e1e93}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{86bb682b-1cd8-49d7-b8fc-a9e1f18e1e93}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>False</value>
+			<value>True</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
