@@ -2,13 +2,13 @@
 	"name": "Unnamed",
 	"format": "JummBox",
 	"version": 6,
-	"scale": "Free",
+	"scale": "Mixolydian",
 	"key": "C",
 	"introBars": 0,
 	"loopBars": 8,
 	"beatsPerBar": 8,
 	"ticksPerBeat": 4,
-	"beatsPerMinute": 150,
+	"beatsPerMinute": 100,
 	"reverb": 0,
 	"masterGain": 1,
 	"compressionThreshold": 1,
@@ -65,6 +65,38 @@
 					"envelopeSpeed": 12,
 					"discreteEnvelope": false,
 					"preset": 640,
+					"eqSubFilters0": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 2828.43,
+							"linearGain": 2
+						},
+						{
+							"type": "peak",
+							"cutoffHz": 1189.21,
+							"linearGain": 5.6569
+						},
+						{
+							"type": "high-pass",
+							"cutoffHz": 707.11,
+							"linearGain": 2.8284
+						},
+						{
+							"type": "peak",
+							"cutoffHz": 2000,
+							"linearGain": 0.0884
+						},
+						{
+							"type": "peak",
+							"cutoffHz": 840.9,
+							"linearGain": 0.25
+						},
+						{
+							"type": "low-pass",
+							"cutoffHz": 6727.17,
+							"linearGain": 11.3137
+						}
+					],
 					"effects": [
 						"panning",
 						"vibrato",
@@ -656,6 +688,7 @@
 					"envelopeSpeed": 12,
 					"discreteEnvelope": false,
 					"preset": 320,
+					"eqSubFilters0": [],
 					"effects": [
 						"panning",
 						"chord type",
@@ -2002,6 +2035,7 @@
 					"envelopeSpeed": 12,
 					"discreteEnvelope": false,
 					"preset": 971,
+					"eqSubFilters0": [],
 					"effects": [
 						"panning"
 					],
@@ -2786,13 +2820,7 @@
 				{
 					"type": "noise",
 					"volume": 0,
-					"eqFilter": [
-						{
-							"type": "low-pass",
-							"cutoffHz": 16000,
-							"linearGain": 0.3536
-						}
-					],
+					"eqFilter": [],
 					"eqFilterType": true,
 					"eqSimpleCut": 8,
 					"eqSimplePeak": 0,
