@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yfrh2uslk4ko"
+path="res://.godot/imported/FirstBossMusic.wav-e2030b36dc20b11f08fb59e076962d8e.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Music Trail/Boss/FirstBossMusic.wav"
+dest_files=["res://.godot/imported/FirstBossMusic.wav-e2030b36dc20b11f08fb59e076962d8e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

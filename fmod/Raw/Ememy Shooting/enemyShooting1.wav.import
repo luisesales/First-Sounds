@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cknjux1cnwo2h"
+path="res://.godot/imported/enemyShooting1.wav-502b9a2399a0b04d05e4e8811ab3555e.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Ememy Shooting/enemyShooting1.wav"
+dest_files=["res://.godot/imported/enemyShooting1.wav-502b9a2399a0b04d05e4e8811ab3555e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bt4aa6u77gtu7"
+path="res://.godot/imported/walking_5.wav-7b9a3919f4fd98c449e3c5ace2a882a0.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Walking 2.0/walking_5.wav"
+dest_files=["res://.godot/imported/walking_5.wav-7b9a3919f4fd98c449e3c5ace2a882a0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

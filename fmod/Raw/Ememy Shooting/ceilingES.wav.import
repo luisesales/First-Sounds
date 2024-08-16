@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cksp8xg30tpo2"
+path="res://.godot/imported/ceilingES.wav-16712da54aeea259029dff37fc04b7c3.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Ememy Shooting/ceilingES.wav"
+dest_files=["res://.godot/imported/ceilingES.wav-16712da54aeea259029dff37fc04b7c3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

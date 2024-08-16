@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1uivg1uyivws"
+path="res://.godot/imported/droplet6.wav-41e93c881989f1eade115e3165485461.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Water Droplet/droplet6.wav"
+dest_files=["res://.godot/imported/droplet6.wav-41e93c881989f1eade115e3165485461.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

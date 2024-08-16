@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bljm2wnblqnk7"
+path="res://.godot/imported/alternate_piano.wav-6f36a94fdf78b1f079cc8a8a4e598360.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Music Trail/Menu/alternate_piano.wav"
+dest_files=["res://.godot/imported/alternate_piano.wav-6f36a94fdf78b1f079cc8a8a4e598360.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

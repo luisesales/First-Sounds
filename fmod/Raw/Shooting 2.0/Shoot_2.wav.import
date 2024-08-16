@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bj5redj3y36su"
+path="res://.godot/imported/Shoot_2.wav-b5dbe7b7255a98484efb6bd70b8dc7a5.sample"
+
+[deps]
+
+source_file="res://banks/First-Sounds/fmod/Raw/Shooting 2.0/Shoot_2.wav"
+dest_files=["res://.godot/imported/Shoot_2.wav-b5dbe7b7255a98484efb6bd70b8dc7a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
